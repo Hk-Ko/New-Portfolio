@@ -17,7 +17,7 @@ export default function Projects() {
           please{" "}
           <Link
             to="contact"
-            className="cursor-pointer font-bold transition-all text-[#E95C2CFF] duration-100"
+            className="cursor-pointer font-bold transition-all text-[#00674FF] duration-100"
             spy={true}
             smooth={true}
             offset={0}
@@ -43,33 +43,52 @@ export default function Projects() {
                 cascade
                 damping={0.5}
               >
-                <div className="w-full group flex flex-col md:flex-row gap-5">
-                  <div className="w-full md:w-[30%]">
-                    <img className="" src={i.image} alt="" />
-                  </div>
-                  <div className="w-full md:w-[70%]">
-                    <h1 className="text-white transition-all duration-200 group-hover:text-[#E95C2CFF] font-semibold">{i.title}</h1>
-                    <p className="text-sm">{i.description}</p>
-                    <div className="mt-2 flex items-center gap-5">
-                      <div className="flex items-center gap-1">
-                      <BiLink className="text-lg"/> <a target="_blank" className="text-sm hover:underline" href={i.github}>github</a>
-                      </div>
-                      <div className="flex items-center gap-1">
-                      <BiLink className="text-lg"/> <a target="_blank" className="text-sm hover:underline" href={i.demo}>live demo</a>
+                <div className="w-full group flex flex-col gap-4">
+                  <div className="flex flex-col lg:flex-row w-full items-center justify-center gap-4">
+                    <div className="w-full md:w-[30%]">
+                      <img className="" src={i.image} alt="" />
+                    </div>
+                    <div className="w-full md:w-[70%]">
+                      <h1 className="text-white transition-all duration-200 group-hover:text-[#E95C2CFF] font-semibold">
+                        {i.title}
+                      </h1>
+                      <p className="text-xs">{i.description}</p>
+                      <div className="mt-2 flex items-center gap-5">
+                        <div className="flex items-center gap-1">
+                          <BiLink className="text-lg" />{" "}
+                          <a
+                            target="_blank"
+                            className="text-sm hover:underline"
+                            href={i.github}
+                          >
+                            github
+                          </a>
+                        </div>
+                        <div className="flex items-center gap-1">
+                          <BiLink className="text-lg" />{" "}
+                          <a
+                            target="_blank"
+                            className="text-sm hover:underline"
+                            href={i.demo}
+                          >
+                            live demo
+                          </a>
+                        </div>
                       </div>
                     </div>
-                    <div className="flex flex-wrap text-xs gap-2 my-5">
-                    {
-                      i.badges.map(el => {
-                        return (
-                          <div className=" bg-[#e5091413] text-white group-hover:text-[#E95C2CFF] px-3 py-1 rounded-full" key={el.id}>
-                            <span>{el.text}</span>
-                          </div>
-                        )
-                      })
-                    }
-                    </div>
                   </div>
+                </div>
+                <div className="flex flex-wrap text-xs gap-2 my-5">
+                  {i.badges.map((el) => {
+                    return (
+                      <div
+                        className=" bg-[#e5091413] text-white group-hover:text-[#E95C2CFF] px-3 py-1 rounded-full"
+                        key={el.id}
+                      >
+                        <span>{el.text}</span>
+                      </div>
+                    );
+                  })}
                 </div>
               </Fade>
               {/* <div className="w-full flex flex-col justify-between text-center group-hover:opacity-100 opacity-0 h-full absolute left-0 top-0 bg-[#00000048] text-white transition duration-500">

@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import { TypeAnimation } from "react-type-animation";
+import Experience from "./components/Experience";
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -43,6 +44,7 @@ export default function App() {
       </div>
       <div className="lg:w-[50%] lg:ml-auto">
         <About />
+        <Experience />
         <Skill />
         <Projects />
         <Contact />

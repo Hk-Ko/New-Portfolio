@@ -37,7 +37,7 @@ export default function Contact() {
           <MdOutlineLocationOn className=" text-2xl w-10 h-10 p-2 contact-icon" />
           <div>
             <p className="text-sm font-bold">Address</p>
-            <p>Shwe Bon Thar, Mogok , Mandalay</p>
+            <p>Shwe Bon Thar, Mogok , Myanmar</p>
           </div>
         </li>
       </ul>

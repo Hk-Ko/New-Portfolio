@@ -21,31 +21,32 @@ export default function Hero() {
       mouseControls: true,
       touchControls: true,
       gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
       color1: 0xffffff,
       color2: 0xffffff,
       birdSize: 1,
-      wingSpan: 40.00,
-      separation: 100.00,
-      quantity: 1.60,
-      backgroundAlpha: 0
-    })
-  },[])
+      wingSpan: 40.0,
+      separation: 100.0,
+      quantity: 1.6,
+      backgroundAlpha: 0,
+    });
+  }, []);
 
   return (
     <div className="lg:px-28 px-5 lg:pb-28 pb-20 hidden lg:block">
       <div id="vanta">
         <h1 className="heading pt-28 text-[#E95C2CFF]">
-        <Rotate direction="left" cascade duration={200}>
-          Htun Ko Ko
-        </Rotate>
+          <Rotate direction="left" cascade duration={200}>
+            Htun Ko Ko
+          </Rotate>
         </h1>
         <h3 className="title">Frontend Developer</h3>
         <p className="my-10">
-        A Frontend focused Web Developer building the Frontend of Websites and Web  Applications that leads to the success of the overall product.
+          A Frontend focused Web Developer building the Frontend of Websites and
+          Web Applications that leads to the success of the overall product.
         </p>
       </div>
       <div>
@@ -62,6 +63,20 @@ export default function Hero() {
               activeClass="nav-active"
             >
               ABOUT
+            </Link>
+          </li>
+          <li className="hover:text-[#E95C2CFF] transition-all ease-linear duration-150">
+            <span className="nav px-5 relative bottom-2 mr-5 "></span>
+            <Link
+              to="experience"
+              className="cursor-pointer hover:font-bold transition-all duration-100"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              activeClass="nav-active"
+            >
+              EXPERIENCE
             </Link>
           </li>
           <li className="hover:text-[#E95C2CFF] transition-all ease-linear duration-150">
@@ -102,7 +117,7 @@ export default function Hero() {
               duration={500}
               activeClass="nav-active"
             >
-            <span className="nav nav-active px-5 relative bottom-2 mr-5 "></span>
+              <span className="nav nav-active px-5 relative bottom-2 mr-5 "></span>
               CONTACT
             </Link>
           </li>
