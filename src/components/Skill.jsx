@@ -16,9 +16,9 @@ export default function Skill() {
         <Fade
           triggerOnce={true}
           direction="up"
-          delay={700}
+          delay={400}
           cascade
-          damping={0.2}
+          damping={0.1}
         >
         {skills.map((i) => {
           return (

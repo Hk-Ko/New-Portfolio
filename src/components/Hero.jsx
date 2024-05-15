@@ -126,12 +126,12 @@ export default function Hero() {
       <div>
         <ul className="flex gap-5 text-2xl items-center">
           <li className="hover:text-[#E95C2CFF] transition-all ease-linear duration-150">
-            <a href="https://www.facebook.com/profile.php?id=100009339545293">
+            <a href="https://www.facebook.com/hk.ko.144">
               <BsFacebook />
             </a>
           </li>
           <li className="hover:text-[#E95C2CFF] transition-all ease-linear duration-150">
-            <a href="https://github.com/chanmyae-aung">
+            <a href="https://github.com/Hk-Ko">
               <BsGithub />
             </a>
           </li>
@@ -142,7 +142,7 @@ export default function Hero() {
           </li>
 
           <li className="hover:text-[#E95C2CFF] transition-all ease-linear duration-150">
-            <a href="https://www.linkedin.com/in/chan-myae-36a717199/">
+            <a href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit">
               <BiLogoLinkedin />
             </a>
           </li>
