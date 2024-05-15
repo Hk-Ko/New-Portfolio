@@ -49,7 +49,7 @@ export default function Projects() {
                       <img className="" src={i.image} alt="" />
                     </div>
                     <div className="w-full md:w-[70%]">
-                      <h1 className="text-white transition-all duration-200 group-hover:text-[#E95C2CFF] font-semibold">
+                      <h1 className="text-white transition-all duration-200 group-hover:text-[#006747FF] font-semibold">
                         {i.title}
                       </h1>
                       <p className="text-xs">{i.description}</p>
@@ -58,7 +58,7 @@ export default function Projects() {
                           <BiLink className="text-lg" />{" "}
                           <a
                             target="_blank"
-                            className="text-sm hover:underline"
+                            className="text-sm hover:text-[#006747FF] hover:underline"
                             href={i.github}
                           >
                             github
@@ -68,7 +68,7 @@ export default function Projects() {
                           <BiLink className="text-lg" />{" "}
                           <a
                             target="_blank"
-                            className="text-sm hover:underline"
+                            className="text-sm hover:text-[#006747FF] hover:underline"
                             href={i.demo}
                           >
                             live demo
@@ -82,7 +82,7 @@ export default function Projects() {
                   {i.badges.map((el) => {
                     return (
                       <div
-                        className=" bg-[#e5091413] text-white group-hover:text-[#E95C2CFF] px-3 py-1 rounded-full"
+                        className=" bg-[#006747FF] text-white px-3 py-1 rounded-full"
                         key={el.id}
                       >
                         <span>{el.text}</span>

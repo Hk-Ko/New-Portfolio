@@ -15,7 +15,7 @@ export default function Navbar() {
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-all ease-linear duration-500 w-full h-screen text-xl fixed bottom-0 z-10 bg-[#000] flex items-center justify-center flex-col gap-10`}
       >
-        <li className="text-[#E50914] transition-all ease-linear duration-150">
+        <li className="text-[#E95C2CFF] transition-all ease-linear duration-150">
           <Link
             onClick={() => setOpen(!isOpen)}
             to="about"
@@ -29,7 +29,7 @@ export default function Navbar() {
             ABOUT
           </Link>
         </li>
-        <li className="text-[#E50914] transition-all ease-linear duration-150">
+        <li className="text-[#E95C2CFF] transition-all ease-linear duration-150">
           <Link
             onClick={() => setOpen(!isOpen)}
             to="experience"
@@ -43,7 +43,7 @@ export default function Navbar() {
             EXPERIENCE
           </Link>
         </li>
-        <li className="text-[#E50914] transition-all ease-linear duration-150">
+        <li className="text-[#E95C2CFF] transition-all ease-linear duration-150">
           <Link
             onClick={() => setOpen(!isOpen)}
             to="skill"
@@ -57,7 +57,7 @@ export default function Navbar() {
             SKILL
           </Link>
         </li>
-        <li className="text-[#E50914] transition-all ease-linear duration-150">
+        <li className="text-[#E95C2CFF] transition-all ease-linear duration-150">
           <Link
             onClick={() => setOpen(!isOpen)}
             to="project"
@@ -71,7 +71,7 @@ export default function Navbar() {
             PROJECTS
           </Link>
         </li>
-        <li className="text-[#E50914] transition-all ease-linear duration-150">
+        <li className="text-[#E95C2CFF] transition-all ease-linear duration-150">
           <Link
             onClick={() => setOpen(!isOpen)}
             to="contact"
