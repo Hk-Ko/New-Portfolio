@@ -20,13 +20,49 @@ export const projects = [
     title: "Netflix",
     tech: "React | Tailwind",
     github: "https://github.com/liansun96/Netflix-Clone",
-    demo: "https://netflix-clone-chi-jet.vercel.app/",
+    demo: "https://netflix-clone-seven-gold.vercel.app/",
     description:
       "Netflix Clone is a feature-rich streaming platform that replicates the popular Netflix service while offering a range of functionalities that enhance user experience and content discovery. It is designed to explore, search, filter, and sort through a vast library of Movies and TV Shows, allowing users to curate their personal watchlist.",
     badges: [
       {
         id: 1,
-        text: "JavaScript",
+        text: "The Movie Database API(TMDB)",
+      },
+      {
+        id: 2,
+        text: "React",
+      },
+      {
+        id: 3,
+        text: "Redux Toolkit",
+      },
+      {
+        id: 4,
+        text: "RTK Query",
+      },
+      {
+        id: 5,
+        text: "Tailwind",
+      },
+      {
+        id: 6,
+        text: "Framer Motion",
+      },
+    ],
+  },
+  {
+    id: 2,
+    image:netflix,
+    title: "Google Contact Clone",
+    tech: "React | Tailwind",
+    github: "https://github.com/liansun96/Netflix-Clone",
+    demo: "https://netflix-clone-seven-gold.vercel.app/",
+    description:
+      "Google Contact Clone is a versatile contact management application that empowers users to register their accounts, create, update, and delete contacts, and mark certain contacts as favorites. This service provides users with a robust and user-frendily tool for managing their contacts efficiently",
+    badges: [
+      {
+        id: 1,
+        text: "Authentication API",
       },
       {
         id: 2,
@@ -47,7 +83,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     image: nft,
     title: "NFT Marketplace",
     tech: "React | Tailwind",
@@ -79,7 +115,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     image: nftDashboard,
     title: "NFT Dashboard",
     tech: "React | Tailwind",
